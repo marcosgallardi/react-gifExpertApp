@@ -1,0 +1,30 @@
+input {
+    font-size: 1.3rem;
+    width: 100px;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    overflow: hidden;
+
+
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.card img {
+    max-height: 170px;
+}
